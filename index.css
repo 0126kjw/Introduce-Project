@@ -8,12 +8,12 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+/* 상단 메뉴 */
 nav ul li a{
     text-decoration: none;
 
     display: block;
-    /* margin-top: 5px;
-    margin-bottom: 5px; */
     padding-left: 10px;
 
     background-color: violet;
@@ -44,4 +44,25 @@ nav ul li a{
 }
 .nav6{
     background-color: rgb(128, 128, 255);;
+}
+
+/* 메인 */
+main{
+    margin-left: 20px;
+}
+#information h2{
+    margin: 30px 0 10px 0;
+    font-size: 35px;
+}
+.infor{
+    display: inline-block;
+    margin-left: 20px;
+}
+.infor p{
+    margin-top: 3px;
+    
+}
+
+#goal{
+    margin: 30px 0;
 }
