@@ -43,26 +43,52 @@ nav ul li a{
     background-color: rgb(140, 140, 255);
 }
 .nav6{
-    background-color: rgb(128, 128, 255);;
+    background-color: rgb(128, 128, 255);
 }
 
 /* 메인 */
-main{
-    margin-left: 20px;
+/* main{
+    margin: 0 20px;
+} */
+#information{
+    padding: 0 20px 40px 20px;
+    background-color: rgb(223, 223, 255);
+    
 }
 #information h2{
-    margin: 30px 0 10px 0;
+    padding: 30px 0 20px 0;
     font-size: 35px;
+}
+#information img{
+    width: 250px;
+    height: 250px;
 }
 .infor{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .infor p{
     margin-top: 3px;
     
 }
 
-#goal{
-    margin: 30px 0;
+#goal, #attention, #expect, #letter, #me{
+    /* margin: 30px 0; */
+    padding: 20px 20px 25px 20px;
+}
+#goal, #expect, #me{
+    background-color: rgb(238, 238, 255);
+}
+#attention, #letter{
+
+    background-color: rgb(223, 223, 255);
+}
+
+#goal h2, #attention h2, #expect h2, #letter h2, #me h2{
+    /* margin: 30px 0 20px 0; */
+    font-size: 30px;
+}
+#goal p, #attention p, #expect p, #letter p, #me p{
+    font-size: 18px;
+    padding-top: 10px;
 }
