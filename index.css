@@ -25,6 +25,8 @@ nav ul li a{
     color: aliceblue;
 
     line-height: 32px;
+
+    transition: background-color 0.5s;
 }
 .nav1{
     /* background-color: rgb(164, 164, 255); */
@@ -45,7 +47,10 @@ nav ul li a{
 .nav6{
     background-color: rgb(128, 128, 255);
 }
-
+nav ul li a:hover{
+    background-color: rgb(176, 176, 255);
+    transform: scale(1.01);
+}
 /* 메인 */
 /* main{
     margin: 0 20px;
